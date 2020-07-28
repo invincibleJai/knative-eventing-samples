@@ -2,7 +2,6 @@ apiVersion: sources.knative.dev/v1alpha1
 kind: ApiServerSource
 metadata:
   name: testevents02
-  namespace: default
 spec:
   serviceAccountName: events-sa
   mode: Resource

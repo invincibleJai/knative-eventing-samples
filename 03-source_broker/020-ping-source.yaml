@@ -3,7 +3,7 @@ kind: PingSource
 metadata:
   name: ping-source
 spec:
-  schedule: "*/2 * * * *"
+  schedule: "* * * * *"
   jsonData: '{"message": "Hello world!"}'
   sink:
     ref:
